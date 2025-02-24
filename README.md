@@ -4,7 +4,7 @@
 
 用途：这个配置适用于OpenClash，用于自定义分流规则。
 
-url: [https://raw.githubusercontent.com/RudyMaker/dns_outside/refs/heads/main/dns-outsite.yaml](https://raw.githubusercontent.com/RudyMaker/dns_outside/refs/heads/main/dns-outsite.yaml)
+url: [https://raw.githubusercontent.com/RudyMaker/dns_list/refs/heads/main/dns-outsite.yaml](https://raw.githubusercontent.com/RudyMaker/dns_list/refs/heads/main/dns-outsite.yaml)
 
 
 # dns-cn
