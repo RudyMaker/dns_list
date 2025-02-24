@@ -1,0 +1,78 @@
+payload:
+  # 常见非中国地区 DNS 提供商域名分流
+  - DOMAIN-SUFFIX,google.com          # Google Public DNS
+  - DOMAIN-SUFFIX,cloudflare.com      # Cloudflare DNS
+  - DOMAIN-SUFFIX,quad9.net           # Quad9 DNS
+  - DOMAIN-SUFFIX,opendns.com         # OpenDNS (Cisco)
+  - DOMAIN-SUFFIX,adguard.com         # AdGuard DNS
+  - DOMAIN-SUFFIX,norton.com          # Norton ConnectSafe DNS
+  - DOMAIN-SUFFIX,cleanbrowsing.org   # CleanBrowsing DNS
+  - DOMAIN-SUFFIX,dns.watch           # DNS.WATCH
+  - DOMAIN-SUFFIX,verisign.com        # Verisign Public DNS
+  - DOMAIN-SUFFIX,level3.net          # Level3 DNS (CenturyLink)
+  - DOMAIN-SUFFIX,comodo.com          # Comodo Secure DNS
+  - DOMAIN-SUFFIX,dnsfilter.com       # DNSFilter
+  - DOMAIN-SUFFIX,neustar.biz         # Neustar UltraDNS
+  - DOMAIN-SUFFIX,dyn.com             # Oracle Dyn DNS
+  - DOMAIN-SUFFIX,uncensoreddns.org   # UncensoredDNS (丹麦)
+  - DOMAIN-SUFFIX,he.net              # Hurricane Electric DNS
+  - DOMAIN-SUFFIX,freenom.com         # Freenom World DNS
+  - DOMAIN-SUFFIX,alternate-dns.com   # Alternate DNS
+  - DOMAIN-SUFFIX,public-dns.info     # Public DNS Server List
+  - DOMAIN-SUFFIX,dnswarden.com       # DNS Warden
+  # 香港地区 DNS
+  - DOMAIN-SUFFIX,hkbn.net            # 香港宽频 (HKBN)
+  - DOMAIN-SUFFIX,pccwglobal.com      # PCCW Global (香港电讯)
+  - DOMAIN-SUFFIX,hgc.com.hk          # 和记环球电讯 (HGC)
+  # 台湾地区 DNS
+  - DOMAIN-SUFFIX,hinet.net           # 中华电信 HiNet (台湾)
+  - DOMAIN-SUFFIX,seed.net.tw         # SeedNet (台湾)
+  - DOMAIN-SUFFIX,twnic.tw            # 台湾网络信息中心 (TWNIC)
+
+  # IP 地址分流 (非中国 DNS 的常用 IP)
+  - IP-CIDR,8.8.8.8/32               # Google DNS
+  - IP-CIDR,8.8.4.4/32               # Google DNS
+  - IP-CIDR,1.1.1.1/32               # Cloudflare DNS
+  - IP-CIDR,1.0.0.1/32               # Cloudflare DNS
+  - IP-CIDR,9.9.9.9/32               # Quad9 DNS
+  - IP-CIDR,149.112.112.112/32       # Quad9 DNS
+  - IP-CIDR,208.67.222.222/32        # OpenDNS
+  - IP-CIDR,208.67.220.220/32        # OpenDNS
+  - IP-CIDR,94.140.14.14/32          # AdGuard DNS
+  - IP-CIDR,94.140.15.15/32          # AdGuard DNS
+  - IP-CIDR,185.228.168.168/32       # CleanBrowsing DNS
+  - IP-CIDR,185.228.169.168/32       # CleanBrowsing DNS
+  - IP-CIDR,84.200.69.80/32          # DNS.WATCH
+  - IP-CIDR,84.200.70.40/32          # DNS.WATCH
+  - IP-CIDR,64.6.64.6/32             # Verisign DNS
+  - IP-CIDR,64.6.65.6/32             # Verisign DNS
+  - IP-CIDR,4.2.2.1/32               # Level3 DNS
+  - IP-CIDR,4.2.2.2/32               # Level3 DNS
+  - IP-CIDR,8.26.56.26/32            # Comodo Secure DNS
+  - IP-CIDR,8.20.247.20/32           # Comodo Secure DNS
+  - IP-CIDR,156.154.70.1/32          # Neustar UltraDNS
+  - IP-CIDR,156.154.71.1/32          # Neustar UltraDNS
+  - IP-CIDR,199.85.126.10/32         # Norton DNS
+  - IP-CIDR,199.85.127.10/32         # Norton DNS
+  - IP-CIDR,216.146.35.35/32         # Oracle Dyn DNS
+  - IP-CIDR,216.146.36.36/32         # Oracle Dyn DNS
+  - IP-CIDR,91.239.100.100/32        # UncensoredDNS
+  - IP-CIDR,89.233.43.71/32          # UncensoredDNS
+  - IP-CIDR,74.82.42.42/32           # Hurricane Electric DNS
+  - IP-CIDR,208.76.50.50/32          # SmartViper DNS
+  - IP-CIDR,208.76.51.51/32          # SmartViper DNS
+  - IP-CIDR,198.153.192.1/32         # Older Neustar DNS
+  - IP-CIDR,198.153.194.1/32         # Older Neustar DNS
+  # 香港地区 DNS IP
+  - IP-CIDR,203.80.96.10/32          # HKBN DNS
+  - IP-CIDR,203.80.96.11/32          # HKBN DNS
+  - IP-CIDR,202.45.84.58/32          # PCCW DNS
+  - IP-CIDR,202.45.84.59/32          # PCCW DNS
+  - IP-CIDR,203.198.7.66/32          # HGC DNS
+  - IP-CIDR,203.198.7.67/32          # HGC DNS
+  # 台湾地区 DNS IP
+  - IP-CIDR,168.95.1.1/32            # HiNet DNS
+  - IP-CIDR,168.95.192.1/32          # HiNet DNS
+  - IP-CIDR,139.175.252.16/32        # SeedNet DNS
+  - IP-CIDR,139.175.251.16/32        # SeedNet DNS
+  - IP-CIDR,203.66.188.1/32          # TWNIC DNS
