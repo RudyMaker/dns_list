@@ -1,33 +1,46 @@
 payload:
   # 常见非中国地区 DNS 提供商域名分流
-  - DOMAIN-SUFFIX,google.com          # Google Public DNS
-  - DOMAIN-SUFFIX,cloudflare.com      # Cloudflare DNS
-  - DOMAIN-SUFFIX,quad9.net           # Quad9 DNS
-  - DOMAIN-SUFFIX,opendns.com         # OpenDNS (Cisco)
-  - DOMAIN-SUFFIX,adguard.com         # AdGuard DNS
-  - DOMAIN-SUFFIX,norton.com          # Norton ConnectSafe DNS
-  - DOMAIN-SUFFIX,cleanbrowsing.org   # CleanBrowsing DNS
-  - DOMAIN-SUFFIX,dns.watch           # DNS.WATCH
-  - DOMAIN-SUFFIX,verisign.com        # Verisign Public DNS
-  - DOMAIN-SUFFIX,level3.net          # Level3 DNS (CenturyLink)
-  - DOMAIN-SUFFIX,comodo.com          # Comodo Secure DNS
-  - DOMAIN-SUFFIX,dnsfilter.com       # DNSFilter
-  - DOMAIN-SUFFIX,neustar.biz         # Neustar UltraDNS
-  - DOMAIN-SUFFIX,dyn.com             # Oracle Dyn DNS
-  - DOMAIN-SUFFIX,uncensoreddns.org   # UncensoredDNS (丹麦)
-  - DOMAIN-SUFFIX,he.net              # Hurricane Electric DNS
-  - DOMAIN-SUFFIX,freenom.com         # Freenom World DNS
-  - DOMAIN-SUFFIX,alternate-dns.com   # Alternate DNS
-  - DOMAIN-SUFFIX,public-dns.info     # Public DNS Server List
-  - DOMAIN-SUFFIX,dnswarden.com       # DNS Warden
+  - DOMAIN,dns.google.com          # Google Public DNS (常用 dns.google 或 dns.google.com)
+  - DOMAIN,dns.google
+  - DOMAIN,dns64.dns.google
+  - DOMAIN,1dot1dot1dot1.cloudflare-dns.com  # Cloudflare DNS (1.1.1.1 的查询域名)
+  - DOMAIN,dns.cloudflare.com
+  - DOMAIN,one.one.one.one
+  - DOMAIN,dns.sb                 # DNS.SB
+  - DOMAIN,dot.sb
+  - DOMAIN,doh.sb
+  - DOMAIN,dns9.quad9.net          # Quad9 DNS
+  - DOMAIN,resolver1.opendns.com   # OpenDNS (Cisco)
+  - DOMAIN,dns.opendns.com         # OpenDNS (Cisco)
+  - DOMAIN,dns.umbrella.com        # OpenDNS (Cisco)
+  - DOMAIN,dns.sse.cisco.com       # OpenDNS (Cisco)
+  - DOMAIN,safe.dot.dns.yandex.net         # Yandex DNS
+  - DOMAIN,common.dot.dns.yandex.net       # Yandex DNS
+  - DOMAIN,dns.adguard.com         # AdGuard DNS
+  - DOMAIN,dns.adguard-dns.com     # AdGuard DNS
+  - DOMAIN,dns.norton.com          # Norton ConnectSafe DNS
+  - DOMAIN,dns1.dnsfilter.com      # CleanBrowsing DNS (示例，实际可能不同)
+  - DOMAIN,dns.watch               # DNS.WATCH
+  - DOMAIN,dns.verisign.com        # Verisign Public DNS
+  - DOMAIN,dns.level3.net          # Level3 DNS (CenturyLink)
+  - DOMAIN,dns.comodo.com          # Comodo Secure DNS
+  - DOMAIN,dns.dnsfilter.com       # DNSFilter
+  - DOMAIN,ultra-dns.neustar.biz   # Neustar UltraDNS (示例，实际可能不同)
+  - DOMAIN,dns.dyn.com            # Oracle Dyn DNS
+  - DOMAIN,anycast.uncensoreddns.org  # UncensoredDNS (丹麦)
+  - DOMAIN,dns.he.net             # Hurricane Electric DNS
+  - DOMAIN,dns.freenom.com         # Freenom World DNS
+  - DOMAIN,dns.alternate-dns.com   # Alternate DNS
+  - DOMAIN,dns.public-dns.info     # Public DNS Server List
+  - DOMAIN,dns.dnswarden.com       # DNS Warden
   # 香港地区 DNS
-  - DOMAIN-SUFFIX,hkbn.net            # 香港宽频 (HKBN)
-  - DOMAIN-SUFFIX,pccwglobal.com      # PCCW Global (香港电讯)
-  - DOMAIN-SUFFIX,hgc.com.hk          # 和记环球电讯 (HGC)
+  - DOMAIN,dns.hkbn.net            # 香港宽频 (HKBN)
+  - DOMAIN,dns.pccwglobal.com      # PCCW Global (香港电讯)
+  - DOMAIN,dns.hgc.com.hk          # 和记环球电讯 (HGC)
   # 台湾地区 DNS
-  - DOMAIN-SUFFIX,hinet.net           # 中华电信 HiNet (台湾)
-  - DOMAIN-SUFFIX,seed.net.tw         # SeedNet (台湾)
-  - DOMAIN-SUFFIX,twnic.tw            # 台湾网络信息中心 (TWNIC)
+  - DOMAIN,dns.hinet.net           # 中华电信 HiNet (台湾)
+  - DOMAIN,dns.seed.net.tw         # SeedNet (台湾)
+  - DOMAIN,dns.twnic.tw            # 台湾网络信息中心 (TWNIC)
 
   # IP 地址分流 (非中国 DNS 的常用 IP)
   - IP-CIDR,8.8.8.8/32               # Google DNS
@@ -36,8 +49,14 @@ payload:
   - IP-CIDR,1.0.0.1/32               # Cloudflare DNS
   - IP-CIDR,9.9.9.9/32               # Quad9 DNS
   - IP-CIDR,149.112.112.112/32       # Quad9 DNS
+  - IP-CIDR,185.222.222.222/32       # DNS.SB
+  - IP-CIDR,45.11.45.11/32           # DNS.SB
   - IP-CIDR,208.67.222.222/32        # OpenDNS
   - IP-CIDR,208.67.220.220/32        # OpenDNS
+  - IP-CIDR,208.67.222.220/32        # OpenDNS
+  - IP-CIDR,208.67.220.222/32        # OpenDNS
+  - IP-CIDR,77.88.8.8/32             # Yandex DNS
+  - IP-CIDR,77.88.8.1/32             # Yandex DNS
   - IP-CIDR,94.140.14.14/32          # AdGuard DNS
   - IP-CIDR,94.140.15.15/32          # AdGuard DNS
   - IP-CIDR,185.228.168.168/32       # CleanBrowsing DNS
@@ -73,6 +92,26 @@ payload:
   # 台湾地区 DNS IP
   - IP-CIDR,168.95.1.1/32            # HiNet DNS
   - IP-CIDR,168.95.192.1/32          # HiNet DNS
-  - IP-CIDR,139.175.252.16/32        # SeedNet DNS
-  - IP-CIDR,139.175.251.16/32        # SeedNet DNS
-  - IP-CIDR,203.66.188.1/32          # TWNIC DNS
+
+  # IPv6 DNS 解析地址 (非中国 DNS 的常用 IPv6 地址)
+  - IP-CIDR6,2001:4860:4860::8888/128   # Google DNS
+  - IP-CIDR6,2001:4860:4860::8844/128   # Google DNS
+  - IP-CIDR6,2606:4700:4700::1111/128   # Cloudflare DNS
+  - IP-CIDR6,2606:4700:4700::1001/128   # Cloudflare DNS
+  - IP-CIDR6,2620:fe::fe/128            # Quad9 DNS
+  - IP-CIDR6,2620:fe::9/128             # Quad9 DNS
+  - IP-CIDR6,2620:0:ccc::2/128          # OpenDNS
+  - IP-CIDR6,2620:0:ccd::2/128          # OpenDNS
+  - IP-CIDR6,2a00:5a60::ad1:0ff/128     # AdGuard DNS
+  - IP-CIDR6,2a00:5a60::ad2:0ff/128     # AdGuard DNS
+  - IP-CIDR6,2a0d:2a00:1::/128          # CleanBrowsing DNS (家庭过滤示例)
+  - IP-CIDR6,2a0d:2a00:2::/128          # CleanBrowsing DNS (家庭过滤示例)
+  - IP-CIDR6,2001:67c:28a4::/128        # UncensoredDNS
+  - IP-CIDR6,2a01:3a0:53:53::/128       # UncensoredDNS
+  - IP-CIDR6,2001:470:20::2/128         # Hurricane Electric DNS
+  - IP-CIDR6,2001:6b0:1:ea:202:226:105:116/128  # DNS.SB (示例地址，可能需验证)
+  - IP-CIDR6,2001:6b0:1:ea:202:226:105:117/128  # DNS.SB (示例地址，可能需验证)
+  - IP-CIDR6,2620:119:35::35/128        # Oracle Dyn DNS
+  - IP-CIDR6,2620:119:53::53/128        # Oracle Dyn DNS
+  - IP-CIDR6,2001:678:558:1000::1/128   # DNS.WATCH
+  - IP-CIDR6,2001:678:558:1000::40/128  # DNS.WATCH
