@@ -6,6 +6,7 @@ payload:
   - DOMAIN,1dot1dot1dot1.cloudflare-dns.com  # Cloudflare DNS (1.1.1.1 的查询域名)
   - DOMAIN,dns.cloudflare.com
   - DOMAIN,one.one.one.one
+  - DOMAIN,1.1.1.1/dns-query
   - DOMAIN,dns.sb                 # DNS.SB
   - DOMAIN,dot.sb
   - DOMAIN,doh.sb
@@ -33,6 +34,16 @@ payload:
   - DOMAIN,dns.alternate-dns.com   # Alternate DNS
   - DOMAIN,dns.public-dns.info     # Public DNS Server List
   - DOMAIN,dns.dnswarden.com       # DNS Warden
+  - DOMAIN,jp.tiar.app
+  - DOMAIN,dot.tiar.app
+  - DOMAIN,public.dns.iij.jp
+  - DOMAIN,jp.tiarap.org
+  - DOMAIN,doh.dnslify.com
+  - DOMAIN,dns.oszx.co
+  - DOMAIN,doh.applied-privacy.net
+  - DOMAIN,dnsforge.de
+  - DOMAIN,doh.ffmuc.net
+  - DOMAIN,doh.mullvad.net
   # 香港地区 DNS
   - DOMAIN,dns.hkbn.net            # 香港宽频 (HKBN)
   - DOMAIN,dns.pccwglobal.com      # PCCW Global (香港电讯)
