@@ -5,6 +5,7 @@ payload:
   - DOMAIN,dns64.dns.google
   - DOMAIN,1dot1dot1dot1.cloudflare-dns.com  # Cloudflare DNS (1.1.1.1 的查询域名)
   - DOMAIN,dns.cloudflare.com
+  - DOMAIN,cloudflare-dns.com
   - DOMAIN,one.one.one.one
   - DOMAIN,1.1.1.1/dns-query
   - DOMAIN,dns.sb                 # DNS.SB
