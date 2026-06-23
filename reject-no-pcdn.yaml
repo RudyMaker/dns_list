@@ -1,0 +1,33 @@
+payload:
+  # pcdn
+- DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
+- DOMAIN-SUFFIX,ppio.cloud
+- DOMAIN-SUFFIX,yfp2p.net
+- DOMAIN-SUFFIX,yfcdn.net
+- DOMAIN-SUFFIX,onethingpcs.com
+- DOMAIN-SUFFIX,tianwenca.com
+- DOMAIN-SUFFIX,pkoplink.com
+- DOMAIN-SUFFIX,kuiniuca.com
+- DOMAIN-SUFFIX,yfcloud.com
+- DOMAIN-SUFFIX,saxysec.com
+- DOMAIN-SUFFIX,pcdn.yximgs.com
+- DOMAIN-SUFFIX,szbdyd.com
+- DOMAIN-SUFFIX,xycdn.com
+- DOMAIN-SUFFIX,uhabo.com
+- DOMAIN-SUFFIX,p2cdn.com
+- DOMAIN-SUFFIX,p2p.huya.com
+- DOMAIN-SUFFIX,p2ptun.qq.com
+- DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com
+- DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com
+- DOMAIN-SUFFIX,p2p.qq.com
+- DOMAIN-SUFFIX,cdnnodedns.cn
+- DOMAIN-SUFFIX,mcdn.bilivideo.com
+- DOMAIN-SUFFIX,mcdn.bilivideo.cn
+- DOMAIN-SUFFIX,szbdyd.com
+- DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn
+- DOMAIN-SUFFIX,p2plog.douyucdn.cn
+- DOMAIN-REGEX,^p2pchunk-[\w.-]*?\.douyucdn\.cn$
+- DOMAIN-REGEX,^p2plive-[\w.-]*?\.douyucdn\.cn$
+- DOMAIN-REGEX,^p2p[\w.-]*?-ws\.douyucdn\.cn$
+- DOMAIN-REGEX,^dyp2p-[\w.-]*?\.douyucdn\.cn$
+- DOMAIN-REGEX,^p2p-[\w.-]*?\.douyucdn\.cn$
