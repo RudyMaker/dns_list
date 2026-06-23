@@ -1,0 +1,36 @@
+payload:
+  # my-blacklist
+- DOMAIN-SUFFIX,mutodisk.shop
+- DOMAIN-SUFFIX,edge2.laotv.la
+- DOMAIN-SUFFIX,v2h-cdn.com
+- DOMAIN-SUFFIX,hoy.tv
+- DOMAIN-SUFFIX,akamaized.ne
+- DOMAIN-SUFFIX,openwrt.org
+- DOMAIN-SUFFIX,golang.org
+- DOMAIN-SUFFIX,github.com
+  #PTT
+- DOMAIN,pttime.org
+- DOMAIN,pttime.site
+
+- DOMAIN,video.mytvsuper.xyz
+- DOMAIN,civilopedia.net
+- DOMAIN,vgbaike.com
+
+  #m-team.cc
+#- DOMAIN-KEYWORD,m-team.cc
+#- DOMAIN-KEYWORD,m-team.io
+#- DOMAIN-SUFFIX,m-team.cc
+#- DOMAIN-SUFFIX,m-team.io
+#- DOMAIN-SUFFIX,kp.m-team.cc
+#- DOMAIN-SUFFIX,api.m-team.cc
+#- DOMAIN-SUFFIX,api.m-team.io
+#frp
+
+#docker
+- DOMAIN-SUFFIX,daocloud.io
+
+ #财神
+- DOMAIN,cspt.top
+
+#rousi
+- DOMAIN,rousi.pro

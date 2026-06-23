@@ -1,0 +1,56 @@
+payload:
+  # my-whitelist
+
+#PT站Tracker
+  #m-team.cc
+  - DOMAIN-KEYWORD,m-team.cc
+  - DOMAIN-KEYWORD,m-team.io
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,kp.m-team.cc
+  - DOMAIN-SUFFIX,api.m-team.cc
+  - DOMAIN-SUFFIX,api.m-team.io
+  - DOMAIN-KEYWORD,tracker
+  - IP-CIDR6,2401:2660:1000:2e7:d478:eb6d:6520:6924/32
+  - IP-CIDR,104.22.50.225/32
+
+  #ICC2022
+  - DOMAIN,icc2022.xyz
+  - DOMAIN,tracker.icc2022.xyz
+  - DOMAIN,tracker1.czhch.com
+  - DOMAIN,tracker2.czhch.com
+  - DOMAIN,tracker3.czhch.com
+  - DOMAIN,tracker1.icc2022.de
+  - DOMAIN,tracker2.icc2022.de
+  - DOMAIN,tracker3.icc2022.de
+
+  #52PT
+  - DOMAIN,52pt.site
+
+  #蟹皇堡
+  - DOMAIN,crabpt.vip
+
+  #hdkylin
+  - DOMAIN,hdkyl.in
+  - DOMAIN,hdkylin.top
+  - DOMAIN,t.hdkylin.work
+
+  #rousi
+  - DOMAIN,rousi.pro
+  #PtZone
+  - DOMAIN,ptzone.xyz
+  
+  #btschool
+  - DOMAIN,pt.btschool.club
+  
+  #财神
+  - DOMAIN,cspt.top
+ 
+  #frp
+
+  - PROCESS-NAME,frpc
+  
+  
+  #FGO
+  - DOMAIN-KEYWORD,fate-go.jp
+  - DOMAIN-KEYWORD,game.fate-go.jp
