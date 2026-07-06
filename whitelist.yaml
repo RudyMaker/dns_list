@@ -52,5 +52,5 @@ payload:
   
   
   #FGO
-  - DOMAIN-KEYWORD,fate-go.jp
-  - DOMAIN-KEYWORD,game.fate-go.jp
+  #- DOMAIN-KEYWORD,fate-go.jp
+  #- DOMAIN-KEYWORD,game.fate-go.jp
